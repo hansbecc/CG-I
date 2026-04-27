@@ -1,4 +1,4 @@
-# Práctica 2: Algoritmos de Generación de Circunferencias
+# Práctica 03: Algoritmos de Generación de Circunferencias
 
 Este proyecto implementa los algoritmos fundamentales para la generación de circunferencias en **C++** utilizando **OpenGL moderno (3.3+)**. [cite_start]El objetivo es visualizar y comparar la eficiencia de diferentes métodos de rasterización de curvas[cite: 5, 8].
 
