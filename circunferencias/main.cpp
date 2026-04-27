@@ -66,7 +66,7 @@ GLuint compileShader(GLenum type, const char* source) {
 
 int main() {
     if (!glfwInit()) return -1;
-    GLFWwindow* window = glfwCreateWindow(600, 600, "Practica 2: Circunferencias", NULL, NULL);
+    GLFWwindow* window = glfwCreateWindow(600, 600, "Practica 3: Circunferencias", NULL, NULL);
     glfwMakeContextCurrent(window);
     glewInit();
 

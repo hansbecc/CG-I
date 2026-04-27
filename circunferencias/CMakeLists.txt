@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(CircunferenciasOpenGL)
+project(circunferenciasOpenGL)
 
 set(CMAKE_CXX_STANDARD 17)
 
@@ -10,10 +10,10 @@ find_package(glfw3 REQUIRED)
 find_package(glm REQUIRED)
 
 # Agregar el ejecutable
-add_executable(Circunferencias main.cpp)
+add_executable(circunferencias tarea.cpp)
 
 # Enlazar librerías
-target_link_libraries(Circunferencias 
+target_link_libraries(circunferencias 
     PRIVATE 
     OpenGL::GL 
     GLEW::GLEW 
