@@ -32,3 +32,13 @@ Para compilar este proyecto, asegúrate de tener instaladas las dependencias de 
    ```bash
    mkdir build && cd build
    cmake ..
+
+2. **Compilar:**
+   ```bash
+   cmake --build .
+ 
+3. **Ejecutar:**
+   ```bash
+   ./CohenSutherland
+
+
